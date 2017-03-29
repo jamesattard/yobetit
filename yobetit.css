@@ -1,0 +1,229 @@
+body {
+  background: #030406;
+}
+.container {
+  width: 100%;
+  background-image:url("https://images.unsplash.com/photo-1434648957308-5e6a859697e8?dpr=1&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar-default, .navbar {
+    margin-bottom: 0px;
+    background-color: #32073c;
+    border-color: #32073c;
+    border-radius: 0;
+}
+
+.navbar-nav li a {
+ line-height: 40px;
+ text-transform: uppercase;
+}
+
+.navbar-right li {
+  color: white;
+}
+
+button.navbar-btn{
+  margin-top: 17px;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.language {
+  color: orange;
+}
+
+#menuTwo {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 30px solid transparent;
+  border-top: 30px solid #230529;
+}
+
+#menuTwo ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: -25px 0 2px 0;
+  text-align: center;
+}
+
+#menuTwo li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:active, a:visited, a:link {
+  color: white;
+}
+
+.table {
+    margin: 0px auto;
+    background-color: white;
+}
+
+.table {
+  border-bottom:0px !important;
+}
+.table th, .table td {
+  border: 1px !important;
+}
+.fixed-table-container {
+  border:0px !important;
+}
+
+.table td {
+  font-size: 0.8em;
+  margin-left: 30px;
+}
+
+.table-responsive {
+  background: white;
+  padding: 30px;
+}
+
+#accountHeader {
+  background-color: #32073c;
+}
+
+#activityHeader {
+  background-color: #32073c;
+}
+
+h4 {
+  font-size: 0.9em;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+#accountActivityButtons {
+  float:right;
+}
+
+.walletBtn {
+  background-color: orange;
+  border-radius: 0;
+  padding: 0 3px 0 3px;
+  margin: 0;
+  margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 0.85em;
+}
+
+.list-group, .list-group-item, .panel {
+  border: 0;
+  border-radius: 0;
+}
+
+.menu-title {
+  font-weight: bold;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+.menu-item {
+  padding-left: 30px;
+  font-size: 0.8em;
+  color: black;
+  text-transform: uppercase;
+}
+
+a.list-group-item {
+  color: black;
+  border: 0;
+}
+
+.fa-chevron-right {
+  color: orange;
+}
+
+#scrollButton {
+  float: none;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.btn-yobetit,
+.btn-yobetit:hover,
+.btn-yobetit:focus,
+.btn-yobetit:active,
+.btn-yobetit.active {
+  color: #ffffff;
+  background-color: #32073c;
+  border-color: #32073c;
+  font-size: 0.8em;
+}
+
+.topDogs {
+  margin: auto;
+  text-align: center;
+  background: #f78620;
+  padding: 20px;
+  font-size: 1.6em;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topDogs .btn-yobetit-dark,
+.topDogs .btn-yobetit-dark:hover,
+.topDogs .btn-yobetit-dark:focus,
+.topDogs .btn-yobetit-dark:active,
+.topDogs .btn-yobetit-dark.active {
+  color: #ffffff;
+  background-color: #230529;
+  border-color: #230529;
+  font-size: 0.85rem;
+  padding: 10px 50px 10px 50px;
+  margin-right: 150px;
+  margin-left: 50px;
+  border-radius: 0;
+}
+
+.footerIcons {
+  padding-left: 10px;
+}
+
+.footer {
+  margin: auto;
+  text-align: center;
+  background: #030406;
+  padding: 50px;
+}
+
+.footer-table {
+  margin: 20px auto;
+
+}
+
+.footerText {
+  color: #959595;
+  font-size: 0.65em;
+  margin: 1px;
+}
+
+.footer-table-responsive {
+  background: #030406;
+}
+
+.footer-table-responsive th {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-left: 30px;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.footer-table-responsive td {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 0.8em;
+  margin-left: 30px;
+}

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="yobetit.css">
+  <title>YoBetit</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">
+          <img alt="Brand" src="yobetit.png" height="40px">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Live Betting</a></li>
+          <li><a href="#">Casino</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language: <span class="language"> EN</span> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">IT</a></li>
+              <li><a href="#">DE</a></li>
+              <li><a href="#">MT</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">EN</a></li>
+            </ul>
+          </li>
+          <li><a href="#">yomama</a></li>
+          <li><a href="#">€0.00</a></li>
+          <button type="submit" class="btn btn-warning navbar-btn">Logout</button>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div id="menuTwo">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Promotions</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Compare Our Prices</a></li>
+        <li><a href="#">Surebets</a></li>
+      </ul>
+    </div>
+
+    <div class="col-xs-2">
+      <h4 id="accountHeader" class="sub-header">Your Account</h4>
+
+      <div id="MainMenu">
+        <div class="list-group panel">
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Bets</span>
+          <div class="list-group-submenu" id="SubMenu1">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Pending bets</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Settled Bets</a>
+          </div>
+
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Bonuses</span>
+          <div class="list-group-submenu" id="SubMenu2">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Bonus overview</a>
+          </div>
+
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Financials</span>
+          <div class="list-group-submenu" id="SubMenu3">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">deposit</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">withdraw</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">account activity</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">balance history</a>
+          </div>
+
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Help</span>
+          <div class="list-group-submenu" id="SubMenu4">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Funding your account</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Placing a bet</a>
+          </div>
+
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Settings</span>
+          <div class="list-group-submenu" id="SubMenu5">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Personal Details</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Change a password</a>
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Preferences</a>
+          </div>
+
+          <span class="menu-title list-group-item" data-parent="#MainMenu">Responsible Gaming</span>
+          <div class="list-group-submenu" id="SubMenu6">
+            <a href="#" class="menu-item list-group-item" data-parent="#SubMenu1">Set Limit</a>
+        </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="col-xs-10">
+      <h4 id="activityHeader" class="sub-header">Account Activity <span id="accountActivityButtons"><button type="submit" class="btn walletBtn">All Wallets <i class="fa fa-caret-down" aria-hidden="true"></i> </button><button type="submit" class="btn walletBtn">All <i class="fa fa-caret-down" aria-hidden="true"></i></button></span></h4>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th class="col-md-2">Type</th>
+              <th class="col-md-2">Date</th>
+              <th class="col-md-2">Status</th>
+              <th class="col-md-2">Amount</th>
+              <th class="col-md-2">Wallet</th>
+              <th class="col-md-2">New Balance</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+            <tr>
+              <td class="col-md-2"><i class="fa fa-chevron-right" aria-hidden="true"> </i> DEPOSIT</td>
+              <td class="col-md-2">06-02-2017 09:46:39</td>
+              <td class="col-md-2">DECLINED</td>
+              <td class="col-md-2">€20.00</td>
+              <td class="col-md-2">REAL</td>
+              <td class="col-md-2"></td>
+            </tr>
+          </tbody>
+        </table>
+        <div id="scrollButton">
+          <button type = "button" class = "btn btn-yobetit">1</button>
+          <button type = "button" class = "btn btn-yobetit">2</button>
+          <button type = "button" class = "btn btn-yobetit">3</button>
+          <button type = "button" class = "btn btn-yobetit">..</button>
+          <button type = "button" class = "btn btn-yobetit">16</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="topDogs">
+    <span id="startHere">Top Dogs Start Here!</span>
+    <button type = "button" class = "btn btn-yobetit-dark">GET BONUS!</button>
+    <i class="fa footerIcons fa-facebook-square" aria-hidden="true"> </i>
+    <i class="fa footerIcons fa-twitter-square" aria-hidden="true"> </i>
+    <i class="fa footerIcons fa-envelope-o" aria-hidden="true"> </i>
+  </div>
+
+  <div class="footer">
+    <img src="yobetitlogo.png" alt="">
+    <p class="footerText">The best Football Prices every day.</p>
+    <p class="footerText">Unbeatable Odds, Last Minute Deals and Bargain Bets.</p>
+
+    <div class="col-xs-12">
+      <div class="footer-table-responsive">
+        <table class="footer-table">
+          <thead>
+            <tr>
+              <th class="col-md-2">About us</th>
+              <th class="col-md-2">Resources</th>
+              <th class="col-md-2">hello!</th>
+              <th class="col-md-2">Sitemap</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-md-2">sports betting</td>
+              <td class="col-md-2">careers</td>
+              <td class="col-md-2">blog</td>
+              <td class="col-md-2">sports</td>
+            </tr>
+            <tr>
+              <td class="col-md-2">sportsbook</td>
+              <td class="col-md-2">surebet calculator</td>
+              <td class="col-md-2">terms & conditions</td>
+              <td class="col-md-2">deals</td>
+            </tr>
+            <tr>
+              <td class="col-md-2">last minute deals</td>
+              <td class="col-md-2"></td>
+              <td class="col-md-2">responsible gaming</td>
+              <td class="col-md-2">compare our prices</td>
+            </tr>
+            <tr>
+              <td class="col-md-2">surebets</td>
+              <td class="col-md-2"></td>
+              <td class="col-md-2"></td>
+              <td class="col-md-2">surebets</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <img src="cardFooter.png" alt="">
+    </div>
+  </div>
+
+  <script src="https://use.fontawesome.com/80c9a7f760.js"></script>
+  <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
